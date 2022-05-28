@@ -1,0 +1,20 @@
+.contactsBlock {
+    background-color: #cc8b8b;
+}
+
+.contactsWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: #f8f897;
+}
+
+.formWrapper {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

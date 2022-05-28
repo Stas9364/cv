@@ -1,0 +1,31 @@
+.footerBlock {
+    background-color: #efd9b1;
+}
+
+.footerWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: #a8dfee;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a7a7ee;
+
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #c1f670;
+    border: 1px solid;
+}
+
+.copyright {
+    border: 1px solid;
+    background-color: #f8f897;
+}
