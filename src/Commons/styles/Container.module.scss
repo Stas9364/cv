@@ -1,0 +1,16 @@
+@import '../../Commons/styles/sass/mixins';
+
+.container {
+    @include flexboxSettings(null, space-between, center, wrap);
+    border: 1px solid;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+@media only screen and (max-width: 1235px) {
+    .container {
+        @include flexboxSettings(null, center, center, wrap);
+    }
+}

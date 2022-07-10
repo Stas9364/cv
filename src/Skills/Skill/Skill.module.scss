@@ -1,0 +1,28 @@
+@import '../../Commons/styles/sass/variables';
+@import '../../Commons/styles/sass/mixins';
+
+.skill {
+  @include flexboxSettings(column, center, null, null);
+  width: 200px;
+  background-color: $bgColor;
+  text-align: center;
+  margin: 10px;
+
+  .icon img {
+    height: 60px;
+    width: 60px;
+    background-color: #f8f897;
+  }
+
+  h3 {
+    @include text(('Montserrat', sans-serif), 20px, 700, $primaryTextColor, null);
+    text-transform: uppercase;
+  }
+
+  .description {
+    @include text(('Poppins', sans-serif), 14px, 400, 24px, $primaryTextColor);
+  }
+}
+
+
+

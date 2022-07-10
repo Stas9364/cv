@@ -1,0 +1,24 @@
+@import "../../Commons/styles/sass/variables";
+@import "../../Commons/styles/sass/mixins";
+
+.navContainer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  //position: fixed;
+
+  .nav {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      @include text(('Montserrat', sans-serif), null, 700, 1, $secondaryTextColor);
+      text-decoration: none;
+    }
+  }
+}
+
+
+

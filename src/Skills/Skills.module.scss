@@ -1,0 +1,24 @@
+@import '../Commons/styles/sass/variables';
+@import '../Commons/styles/sass/mixins';
+
+.skillsBlock {
+  background-color: $bgSecondColor;
+
+  .skillsWrapper {
+    @include flexboxSettings(column, flex-start, null, null);
+
+    .skillsContainer {
+      @include flexboxSettings(null, space-around, null, wrap);
+      width: 100%;
+      @media only screen and (min-width: 320px) and (max-width: 750px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+
+
+

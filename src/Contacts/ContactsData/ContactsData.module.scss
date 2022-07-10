@@ -1,0 +1,24 @@
+@import '../../Commons/styles/sass/mixins';
+@import '../../Commons/styles/sass/mixins';
+@import '../../Commons/styles/sass/variables';
+
+.contactsDataWrapper {
+  @include flexboxSettings(row, start, null, null);
+  margin: 10px 10px 10px 0;
+  width: 100%;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .content {
+    margin-left: 10px;
+    @include text(('Poppins', sans-serif), 16px, 400, 24px, $primaryTextColor);
+
+    @media only screen and (max-width: 615px) {
+      font-size: 14px;
+
+    }
+    }
+}

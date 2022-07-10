@@ -1,0 +1,53 @@
+@import "../Commons/styles/sass/variables";
+@import "../Commons/styles/sass/mixins";
+
+.footerBlock {
+  background-color: $bgColor;
+
+  .footerWrapper {
+    @include flexboxSettings(column, null, null, null);
+
+    .iconsContainer {
+      @include flexboxSettings(null, space-between, null, null);
+      min-width: 200px;
+      margin-top: 10px;
+
+      .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 10px;
+
+
+          &:hover {
+            background-color: #b0b0b0;
+            width: 55px;
+            height: 55px;
+            transition: 1s;
+            z-index: 1;
+          }
+        }
+      }
+
+    }
+
+    .copyright {
+      @include text(('Poppins', sans-serif), 14px, 400, 24px, $primaryTextColor);
+      margin-top: 10px;
+    }
+
+    //@media only screen and (max-width: 615px) {
+    //  justify-content: center;
+    //}
+    }
+}
+
+
+
+
+
+

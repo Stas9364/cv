@@ -1,0 +1,51 @@
+@import '../Commons/styles/sass/variables';
+@import '../Commons/styles/sass/mixins';
+
+.contactsBlock {
+  background-color: $bgSecondColor;
+
+  .contactsWrapper {
+    display: flex;
+    flex-direction: column;
+
+    .wrapper {
+      width: 100%;
+      @include flexboxSettings (null, center, center, wrap);
+
+      .formWrapper {
+        @include flexboxSettings(column, center, null, wrap);
+        margin-top: 10px;
+        @media screen and (max-width: 830px) {
+          width: 100%;
+        }
+        input {
+          height: 50px;
+          font-size: 16px;
+        }
+        textarea {
+          font-size: 16px;
+          height: 150px;
+        }
+        button {
+          height: 50px;
+          background-color: $primaryTextColor;
+          color: white;
+        }
+      }
+
+      .myContacts {
+        width: 50%;
+        align-items: flex-end;
+
+        .text {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

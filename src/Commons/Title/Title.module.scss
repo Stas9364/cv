@@ -1,0 +1,26 @@
+@import '../styles/sass/variables';
+@import '../styles/sass/mixins';
+
+.title {
+    @include text(('Montserrat', sans-serif), null, 700, null, $primaryTextColor);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0 0 15px;
+}
+
+.horizontalLine div {
+    background: #BCBCBCFF none repeat scroll 0 0;
+    height: 2px;
+    margin: 0 auto;
+    width: 77px;
+}
+
+.horizontalLine div.top {
+    margin-bottom: 3px;
+    width: 44px;
+}
+
+.horizontalLine div.bottom {
+    margin-bottom: 15px;
+    width: 88px;
+}
