@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.17dbab39.css",
-    "main.js": "/cv/static/js/main.82762572.js",
+    "main.css": "/cv/static/css/main.221925ff.css",
+    "main.js": "/cv/static/js/main.60f57daf.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
+    "static/media/network-social.png": "/cv/static/media/network-social.5af47476400153c2d474.png",
+    "static/media/Todo-Logo.png": "/cv/static/media/Todo-Logo.e5652c410acf4ee19022.png",
+    "static/media/location.png": "/cv/static/media/location.9f7b5b46c3c765a54e92.png",
+    "static/media/inst.png": "/cv/static/media/inst.deec7894dcfb20fcd4a3.png",
+    "static/media/email.png": "/cv/static/media/email.c969ac0ea49b6813979c.png",
+    "static/media/github_black.png": "/cv/static/media/github_black.883e6914f94a73573e10.png",
+    "static/media/phone-call.png": "/cv/static/media/phone-call.b76498e5c124d5213615.png",
+    "static/media/linkedin_black.png": "/cv/static/media/linkedin_black.13035068ddd54fca740f.png",
     "index.html": "/cv/index.html",
-    "main.17dbab39.css.map": "/cv/static/css/main.17dbab39.css.map",
-    "main.82762572.js.map": "/cv/static/js/main.82762572.js.map",
+    "main.221925ff.css.map": "/cv/static/css/main.221925ff.css.map",
+    "main.60f57daf.js.map": "/cv/static/js/main.60f57daf.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17dbab39.css",
-    "static/js/main.82762572.js"
+    "static/css/main.221925ff.css",
+    "static/js/main.60f57daf.js"
   ]
 }
