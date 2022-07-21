@@ -23,7 +23,6 @@ export const Footer = () => {
                         </a>
                     </div>
                     <div className={styles.icon}><img src={instagram} alt="instagram"/></div>
-                    <div className={styles.icon}></div>
                 </div>
                 <h5 className={styles.copyright}>All rights reserved 2022</h5>
             </div>

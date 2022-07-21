@@ -10,7 +10,19 @@
 
     .wrapper {
       width: 100%;
-      @include flexboxSettings (null, center, center, wrap);
+      @include flexboxSettings(null, space-around, null, wrap);
+      margin-top: 10px;
+
+
+      .myContacts {
+        width: 50%;
+        @include flexboxSettings(null, space-around, null, wrap);
+
+
+        .text {
+          width: 80%;
+        }
+      }
 
       .formWrapper {
         @include flexboxSettings(column, center, null, wrap);
@@ -30,15 +42,6 @@
           height: 50px;
           background-color: $primaryTextColor;
           color: white;
-        }
-      }
-
-      .myContacts {
-        width: 50%;
-        align-items: flex-end;
-
-        .text {
-          width: 80%;
         }
       }
     }
