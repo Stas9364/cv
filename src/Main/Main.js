@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './Main.module.scss';
-import style from '../Commons/styles/Container.module.scss'
+// import style from '../Commons/styles/Container.module.scss'
 
 export const Main = () => {
     return (
         <div className={styles.mainBlock}>
-            <a name='main'/>
-            <div className={style.container}>
-                <div className={styles.text}>
+            <div className={styles.container}>
+                <div>
                     <h5>Hi, my name is</h5>
                     <h1>STAS LISOVSKIY</h1>
                     <p>I am trying to become a web developer</p>

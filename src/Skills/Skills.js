@@ -1,5 +1,4 @@
 import React from 'react';
-import style from '../Commons/styles/Container.module.scss'
 import {Skill} from './Skill/Skill';
 import styles from './Skills.module.scss'
 import {Title} from "../Commons/Title/Title";
@@ -7,14 +6,14 @@ import {Title} from "../Commons/Title/Title";
 export const Skills = () => {
     return (
         <div className={styles.skillsBlock}>
-            <div className={`${style.container} ${styles.skillsWrapper}`}>
+            <div className={`${styles.container} ${styles.skillsWrapper}`}>
                     <a name='skills'/>
                     <Title title={'skills'}/>
                 <div className={styles.skillsContainer}>
 
                     <Skill
                         title={'HTML'}
-                        description={'some description HTML-some description HTML-some description HTML'}
+                        description={'some description HTML-some description HTML'}
                         imgUrl={'https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png'}
                     />
                     <Skill
@@ -24,12 +23,12 @@ export const Skills = () => {
                     />
                     <Skill
                         title={'React'}
-                        description={'some description React'}
+                        description={'some description React some description React'}
                         imgUrl={'https://www.svgrepo.com/show/327388/logo-react.svg'}
                     />
                     <Skill
                         title={'React'}
-                        description={'some description React'}
+                        description={'some description ifjewoim coewjmcw React'}
                         imgUrl={'https://www.svgrepo.com/show/327388/logo-react.svg'}
                     />
 

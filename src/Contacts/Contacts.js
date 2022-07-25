@@ -1,5 +1,4 @@
 import React from 'react';
-import style from '../Commons/styles/Container.module.scss';
 import styles from './Contacts.module.scss';
 import {Title} from '../Commons/Title/Title';
 import phone from '../assets/img/phone-call.png';
@@ -10,7 +9,7 @@ import {ContactsData} from "./ContactsData/ContactsData";
 export const Contacts = () => {
     return (
         <div className={styles.contactsBlock}>
-            <div className={`${style.container} ${styles.contactsWrapper}`}>
+            <div className={`${styles.container} ${styles.contactsWrapper}`}>
                 <a name='contacts'/>
                 <Title title={'GET IN TOUCH'}/>
                 <div className={styles.wrapper}>

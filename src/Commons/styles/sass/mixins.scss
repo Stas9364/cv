@@ -13,3 +13,10 @@
   justify-content: $jContent;
   align-items: $aItems;
 }
+
+@mixin container () {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+}

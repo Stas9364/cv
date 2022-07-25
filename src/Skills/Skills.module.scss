@@ -4,6 +4,11 @@
 .skillsBlock {
   background-color: $bgSecondColor;
 
+  .container {
+    @include container();
+    @include flexboxSettings(null, space-between, center, wrap);
+  }
+
   .skillsWrapper {
     @include flexboxSettings(column, flex-start, null, null);
 

@@ -4,6 +4,11 @@
 .contactsBlock {
   background-color: $bgSecondColor;
 
+  .container {
+    @include container();
+    @include flexboxSettings(null, space-between, center, wrap);
+  }
+
   .contactsWrapper {
     display: flex;
     flex-direction: column;
@@ -28,20 +33,29 @@
         @include flexboxSettings(column, center, null, wrap);
         margin-top: 10px;
         @media screen and (max-width: 830px) {
-          width: 100%;
+          width: 80%;
         }
+
         input {
           height: 50px;
+          width: 100%;
           font-size: 16px;
         }
+
         textarea {
           font-size: 16px;
           height: 150px;
         }
+
         button {
           height: 50px;
           background-color: $primaryTextColor;
           color: white;
+
+          &:hover {
+            background-color: #262626;
+            transition: 0.3s;
+          }
         }
       }
     }

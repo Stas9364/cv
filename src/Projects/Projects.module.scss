@@ -4,6 +4,11 @@
 .projectsBlock {
   background-color: $bgColor;
 
+  .container {
+    @include container();
+    @include flexboxSettings(null, space-between, center, wrap);
+  }
+
   .projectsWrapper {
     @include flexboxSettings(column, null, null, null);
 
