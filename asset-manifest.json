@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.221925ff.css",
-    "main.js": "/cv/static/js/main.60f57daf.js",
+    "main.css": "/cv/static/css/main.c7cdadb4.css",
+    "main.js": "/cv/static/js/main.639a1c89.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
     "static/media/network-social.png": "/cv/static/media/network-social.5af47476400153c2d474.png",
     "static/media/Todo-Logo.png": "/cv/static/media/Todo-Logo.e5652c410acf4ee19022.png",
@@ -12,12 +12,12 @@
     "static/media/phone-call.png": "/cv/static/media/phone-call.b76498e5c124d5213615.png",
     "static/media/linkedin_black.png": "/cv/static/media/linkedin_black.13035068ddd54fca740f.png",
     "index.html": "/cv/index.html",
-    "main.221925ff.css.map": "/cv/static/css/main.221925ff.css.map",
-    "main.60f57daf.js.map": "/cv/static/js/main.60f57daf.js.map",
+    "main.c7cdadb4.css.map": "/cv/static/css/main.c7cdadb4.css.map",
+    "main.639a1c89.js.map": "/cv/static/js/main.639a1c89.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.221925ff.css",
-    "static/js/main.60f57daf.js"
+    "static/css/main.c7cdadb4.css",
+    "static/js/main.639a1c89.js"
   ]
 }
