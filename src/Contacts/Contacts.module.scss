@@ -36,6 +36,11 @@
         }
       }
 
+      .gratitude img{
+        width: 406px;
+        height: 306px;
+      }
+
       .formWrapper {
         @include flexboxSettings(column, center, null, wrap);
         margin-top: 10px;
